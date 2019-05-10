@@ -4,10 +4,11 @@ const regex = /\["(https:\/\/lh3\.googleusercontent\.com\/[a-zA-Z0-9\-_]*)"/g;
 
 function obtainPhotos(content: string): Array<Set<any>> {
   const links: Set<any> = new Set();
-  let match: any = null;
-  // tslint:disable-next-line:no-conditional-assignment
-  while (match = regex.exec(content)) {
+  let match: RegExpExecArray;
+  match = regex.exec(content);
+  while (match) {
     links.add(match[1]);
+    match = regex.exec(content);
   }
   return Array.from(links);
 }
