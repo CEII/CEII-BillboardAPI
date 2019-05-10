@@ -15,8 +15,9 @@ const axios_1 = __importDefault(require("axios"));
 const regex = /\["(https:\/\/lh3\.googleusercontent\.com\/[a-zA-Z0-9\-_]*)"/g;
 function obtainPhotos(content) {
     const links = new Set();
-    const match = null;
-    while (match === regex.exec(content)) {
+    let match = null;
+    // tslint:disable-next-line:no-conditional-assignment
+    while (match = regex.exec(content)) {
         links.add(match[1]);
     }
     return Array.from(links);
