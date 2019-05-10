@@ -30,7 +30,7 @@ app.get("/:id", async (req, res) => {
  * @Function
  * Starts the express Server
  */
-app.listen( process.env.port || port, () => {
+app.listen( process.env.PORT || port, () => {
   // tslint:disable-next-line:no-console
-  console.log(`server started at http:localhost:${port}`);
+  console.log(`server started at http:localhost:${process.env.PORT || port}`);
 });
