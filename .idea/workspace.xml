@@ -25,8 +25,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gphotos.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="180">
+              <caret line="9" selection-start-line="9" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="923" column="41" lean-forward="true" selection-start-line="923" selection-start-column="26" selection-end-line="923" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -167,16 +176,15 @@
       <option name="presentableId" value="Default" />
       <updated>1557443842615</updated>
       <workItem from="1557443856364" duration="5036000" />
-      <workItem from="1557505631447" duration="520000" />
+      <workItem from="1557505631447" duration="3154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5556000" />
+    <option name="totallyTimeSpent" value="8190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -194,7 +202,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32931727" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.2811245" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -237,10 +245,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="923" column="41" lean-forward="true" selection-start-line="923" selection-start-column="26" selection-end-line="923" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/gphotos.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="10" />
         </state>
       </provider>
     </entry>
