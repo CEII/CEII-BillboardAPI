@@ -1,6 +1,6 @@
 import express from "express";
 const app = express();
-const port = 3000;
+const port = 5000;
 import { getAlbum } from "./gphotos";
 
 app.use((req, res, next) => {
@@ -30,7 +30,7 @@ app.get("/:id", async (req, res) => {
  * @Function
  * Starts the express Server
  */
-app.listen( port, () => {
+app.listen( process.env.port || port, () => {
   // tslint:disable-next-line:no-console
   console.log(`server started at http:localhost:${port}`);
 });
